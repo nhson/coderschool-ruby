@@ -34,17 +34,13 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-> HINT: You can put a `walkthrough.gif` file in your project folder, add to git, and use the following syntax to embed it:  
-> `![Video Walkthrough](walkthrough.gif)` 
-> 
-
-![Video Walkthrough](/path/to/your/gif/file)
+![Video Walkthrough](https://github.com/nhson/coderschool-ruby/blob/master/walkthrough.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-* Every times add new ####gem####, must restart local webserver using ```ruby rails s```
+* Every times add new ```gem``` must restart local webserver using ``` rails s```
 * In prework text-book, Step 4: Deploy to Heroku, after update Gemfile, must run ```bundle install``` before pushing to Heroku
 
 ## License
