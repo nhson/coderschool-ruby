@@ -1,26 +1,19 @@
 # Pre-work - Ruby on Rails blog application.
 
-> HINT: Please
-> - include this README.md in your project and fill out the information. 
-> - remove the `README.rdoc` file that Rails generates. 
-> - remove all the HINT blocks in this file.
-
-**Name of your app** is a Ruby on Rails blog application.
 
 Submitted by: **Son Nguyen**
 
-Time spent: **1.5h** hours spent in total
+Time spent: **2.0h** hours spent in total
 
-URL: **Insert your Heroku URL here**
+URL: **http://secret-sands-84431.herokuapp.com/ **
 
 ## User Stories
 
 The following **required** functionality is complete:
 
-> HINT: mark the items you completed with [x]
 
-* [ ] User can create a new post, formatted using the Markdown language.
-* [ ] User can edit an existing post.
+* [x] User can create a new post, formatted using the Markdown language.
+* [x] User can edit an existing post.
 * [ ] There is one post that introduces the App Creator with name, picture.
 * [ ] User can delete stories, with an alert that asks the user to confirm.
 * [ ] User see a search form on the Posts page.
@@ -32,7 +25,6 @@ The following **optional** features are implemented:
 * [ ] User can leave a comment on a post.
 * [ ] User can add "tags" to a post, and filter posts by tag. 
 
-> HINT: if you are unsure how to implement the Search feature, you can Google how to implement a simple search form. For example, one of the sites you will find is [this](http://www.jorgecoca.com/buils-search-form-ruby-rails/)
 
 The following **additional** features are implemented:
 
@@ -52,11 +44,12 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+* Every times add new ####gem####, must restart local webserver using ```ruby rails s```
+* In prework text-book, Step 4: Deploy to Heroku, after update Gemfile, must run ```bundle install``` before pushing to Heroku
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [yyyy] [Son Nguyen]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
